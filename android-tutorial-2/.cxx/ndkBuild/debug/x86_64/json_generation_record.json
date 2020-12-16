@@ -1,0 +1,104 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: x86_64",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/.cxx/ndkBuild/debug/x86_64/android_gradle_build.json due to:",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/.cxx/ndkBuild/debug/x86_64/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/.cxx/ndkBuild/debug/x86_64/build_command.txt, will remove stale json folder",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/.cxx/ndkBuild/debug/x86_64\u0027",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/.cxx/ndkBuild/debug/x86_64\u0027",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /home/kressin/Android/Sdk/ndk/21.0.6113669/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk\nNDK_APPLICATION_MK\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/debug/lib\nNDK_APPLICATION_MK\u003djni/Application.mk\nGSTREAMER_JAVA_SRC_DIR\u003dsrc\nGSTREAMER_ROOT_ANDROID\u003d/home/kressin/Desktop/gstreamer\nGSTREAMER_ASSETS_DIR\u003dsrc/assets\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /home/kressin/Android/Sdk/ndk/21.0.6113669/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk\nNDK_APPLICATION_MK\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/debug/lib\nNDK_APPLICATION_MK\u003djni/Application.mk\nGSTREAMER_JAVA_SRC_DIR\u003dsrc\nGSTREAMER_ROOT_ANDROID\u003d/home/kressin/Desktop/gstreamer\nGSTREAMER_ASSETS_DIR\u003dsrc/assets\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing ndkBuild",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/.cxx/ndkBuild/debug/x86_64/build_output.txt",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "parse and convert ndk-build output to build configuration JSON",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "found application make file /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Application.mk",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "deleted unexpected build output /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/debug/obj/local/x86_64/libgstreamer_android.so in incremental regenerate",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "deleted unexpected build output /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/debug/obj/local/x86_64/libc++_shared.so in incremental regenerate",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/.cxx/ndkBuild/debug/x86_64/build_command.txt",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "tag": "debug|x86_64"
+  }
+]

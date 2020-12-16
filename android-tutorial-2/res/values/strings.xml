@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skydroid USB Video to UDP for QGC</string>
+    <string name="btnStart">Start Stream</string>
+    <string name="btnStop">Stop Stream</string>
+</resources>

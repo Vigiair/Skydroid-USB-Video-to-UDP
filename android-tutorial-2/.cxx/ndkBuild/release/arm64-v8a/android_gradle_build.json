@@ -1,0 +1,57 @@
+{
+  "buildFiles": [
+    "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk",
+    "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/kressin/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk NDK_APPLICATION_MK\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/kressin/Desktop/gstreamer GSTREAMER_ASSETS_DIR\u003dsrc/assets clean"
+  ],
+  "buildTargetsCommand": "/home/kressin/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk NDK_APPLICATION_MK\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/kressin/Desktop/gstreamer GSTREAMER_ASSETS_DIR\u003dsrc/assets {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "gstreamer_android-release-gst-build-arm64-v8a": {
+      "buildCommand": "/home/kressin/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk NDK_APPLICATION_MK\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/kressin/Desktop/gstreamer GSTREAMER_ASSETS_DIR\u003dsrc/assets gst-build-arm64-v8a/libgstreamer_android.so",
+      "toolchain": "toolchain-gst-build-arm64-v8a",
+      "abi": "gst-build-arm64-v8a",
+      "artifactName": "gstreamer_android",
+      "files": [
+        {
+          "src": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/gst-build-arm64-v8a/gstreamer_android.c",
+          "flags": "--sysroot\u003d/home/kressin/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -isystem /home/kressin/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/kressin/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -Wall -Werror -I/home/kressin/Desktop/gstreamer/arm64/include/gstreamer-1.0 -I/home/kressin/Desktop/gstreamer/arm64/include -I/home/kressin/Desktop/gstreamer/arm64/include/glib-2.0 -I/home/kressin/Desktop/gstreamer/arm64/lib/glib-2.0/include -I/home/kressin/Desktop/gstreamer/arm64/include"
+        }
+      ],
+      "output": "gst-build-arm64-v8a/libgstreamer_android.so"
+    },
+    "tutorial-2-release-arm64-v8a": {
+      "buildCommand": "/home/kressin/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Android.mk NDK_APPLICATION_MK\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/kressin/Desktop/gstreamer GSTREAMER_ASSETS_DIR\u003dsrc/assets /home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libtutorial-2.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "tutorial-2",
+      "files": [
+        {
+          "src": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/dummy.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/kressin/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -I/home/kressin/Desktop/gstreamer/arm64/include/gstreamer-1.0 -I/home/kressin/Desktop/gstreamer/arm64/include -I/home/kressin/Desktop/gstreamer/arm64/include/glib-2.0 -I/home/kressin/Desktop/gstreamer/arm64/lib/glib-2.0/include -I/home/kressin/Desktop/gstreamer/arm64/include -I/home/kressin/Android/Sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I/home/kressin/Android/Sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -I/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni/tutorial-2.c",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/kressin/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -O2 -DNDEBUG -I/home/kressin/Desktop/gstreamer/arm64/include/gstreamer-1.0 -I/home/kressin/Desktop/gstreamer/arm64/include -I/home/kressin/Desktop/gstreamer/arm64/include/glib-2.0 -I/home/kressin/Desktop/gstreamer/arm64/lib/glib-2.0/include -I/home/kressin/Desktop/gstreamer/arm64/include -I/home/kressin/Android/Sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I/home/kressin/Android/Sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -I/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/jni -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/home/kressin/Desktop/skydroid_usb_to_udp/gst-docs-master/examples/tutorials/android/android-tutorial-2/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libtutorial-2.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "/home/kressin/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/kressin/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    },
+    "toolchain-gst-build-arm64-v8a": {
+      "cCompilerExecutable": "/home/kressin/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :uartVideo-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d373865d0d084605ebd37db5fbaf6e1/jetified-uartVideo-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d373865d0d084605ebd37db5fbaf6e1/jetified-uartVideo-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d373865d0d084605ebd37db5fbaf6e1/jetified-uartVideo-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
