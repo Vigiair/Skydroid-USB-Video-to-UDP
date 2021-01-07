@@ -17,8 +17,8 @@ A UDP H264 video stream is established (port 5600, ip localhost) with [GStreamer
 # HOW TO USE
 * This app doesn't have an user interface
 
-- Use QGroundControl daily version and enable UDP H264 video streaming in general settings.
-- Connect USB of the remote controller to the phone. A notification will appear.
-- It is possible to stop the stream by clicking on the notification button.
-- Disconnect USB to stop the video stream.
+1. Use QGroundControl daily version and enable UDP H264 video streaming in general settings.
+2. Connect USB of the remote controller to the phone. A notification will appear.
+3. It is possible to stop the stream by clicking on the notification button.
+4. Disconnect USB to stop the video stream.
 
