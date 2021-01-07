@@ -2,7 +2,7 @@
 
 # WHAT
 
-This application is capable of streaming UDP H264 video to (QGroundControl)[http://qgroundcontrol.com/] from USB Video of the Skydroid T10 Remote Controller connected to an Android phone.
+This application is capable of streaming UDP H264 video to [QGroundControl](http://qgroundcontrol.com/) from USB Video of the Skydroid T10 Remote Controller connected to an Android phone.
 
 # WHY
 
@@ -12,7 +12,7 @@ Currently QGroundControl doesn't support USB Video of this particular remote con
 
 This application use the SDK provided by Skydroid to receive H264 video packets.
 
-A UDP H264 video stream is established (port 5600, ip localhost) with (GStreamer)[https://gitlab.freedesktop.org/gstreamer/] libraries.
+A UDP H264 video stream is established (port 5600, ip localhost) with [GStreamer](https://gitlab.freedesktop.org/gstreamer/) libraries.
 
 # HOW TO USE
 * This app doesn't have an user interface
