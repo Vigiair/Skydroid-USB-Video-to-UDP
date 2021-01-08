@@ -1,7 +1,5 @@
 # Skydroid-USB-Video-to-USB
 
-# WHAT
-
 This application is capable of streaming UDP H264 video to [QGroundControl](http://qgroundcontrol.com/) from USB Video of the Skydroid T10 Remote Controller connected to an Android phone.
 
 # WHY
